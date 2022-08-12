@@ -1,7 +1,7 @@
 
 body{
     display: grid;
-    grid-template: 1fr 6fr/1fr 4fr;
+    grid-template: 1fr 6fr/1fr 5fr;
     margin: 0;
 }
 .sidebar{
@@ -45,7 +45,8 @@ a{
     padding: 10px 40px;
     display: grid;
     grid-template-columns: 1fr;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 1;
 }
 .header1,.header2{
     display: flex;
