@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body{
     display: grid;
     grid-template: 1fr 6fr/1fr 5fr;
@@ -38,6 +40,9 @@ li>img{
 a{
     text-decoration: none;
     color: black;
+}
+a:active{
+    color: #e2e8f0;
 }
 .header{
     font-size: 1.5em;
@@ -104,7 +109,7 @@ button:active{
     padding: 20px;
     background-color: #e2e8f0;
     display: grid;
-    grid-template: 1fr 1fr/2fr 1fr;
+    grid-template: 1fr 1fr/3fr 1fr;
     gap: 20px;
 }
 .yours{
@@ -136,4 +141,29 @@ button:active{
 .project>div>img{
     margin-right: 7px;
 }
+.announcements,.Trenders{
+    background-color: white;
+    padding: 15px;
+    border-radius: 0 0 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.announcement{
+    border-bottom: solid 1px grey;
+    font-size: 0.85em;
+}
+.Trender{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1em;
+}
+.Trender>div>p{
+    margin: 0;
+}
+.Trender>div :nth-child(2){
+    opacity: 0.7;
+    margin-top: 2px;
+}
+
 
